@@ -8,7 +8,6 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
 set(LADSPA_INTERFACE_SRC
-        ladspa.h
         ladspa++.h)
 
 set(LADSPA_IMPL_SRC
